@@ -1,0 +1,6 @@
+[submodule "face_recognition"]
+	path = face_recognition
+	url = git@github.com:Jimmy-Xu/face_recognition.git
+[submodule "simple_faceswap"]
+	path = simple_faceswap
+	url = https://github.com/Jimmy-Xu/simple_faceswap.git
