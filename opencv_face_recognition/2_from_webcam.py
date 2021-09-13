@@ -1,6 +1,5 @@
 import face_recognition
 import cv2
-import os
 
 # 捕获0号摄像头
 video_capture = cv2.VideoCapture(0)

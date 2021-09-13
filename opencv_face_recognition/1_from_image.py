@@ -1,9 +1,12 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 import face_recognition
 import cv2
-import os
+
 
 # 读取图片
-img = cv2.imread(".\\img\\emotion\\emotion.jpg")
+img = cv2.imread("./img/emotion/emotion.jpg")
 # 转换 BGR(opencv使用) 为 RGB(face_recognition使用)
 rgb_img = img[:, :, ::-1]
 

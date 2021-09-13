@@ -25,9 +25,9 @@ emotion_labels = {
     6: '平静'
 }
 
-img = cv2.imread(".\\img\\emotion\\emotion.jpg")
+img = cv2.imread("./img/emotion/emotion.jpg")
 face_classifier = cv2.CascadeClassifier(
-    os.path.join(os.getcwd(), "opencv\\data\\haarcascades\\haarcascade_frontalface_default.xml")
+    os.path.join(os.getcwd(), "opencv/data/haarcascades/haarcascade_frontalface_default.xml")
 )
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 faces = face_classifier.detectMultiScale(
