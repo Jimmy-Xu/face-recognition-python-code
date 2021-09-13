@@ -4,3 +4,6 @@
 [submodule "simple_faceswap"]
 	path = simple_faceswap
 	url = https://github.com/Jimmy-Xu/simple_faceswap.git
+[submodule "face_classification"]
+	path = face_classification
+	url = https://github.com/Jimmy-Xu/face_classification.git
